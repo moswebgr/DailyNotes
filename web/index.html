@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Notes - Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%231e40af' width='192' height='192' rx='45'/><text x='96' y='120' font-size='80' font-weight='bold' fill='white' text-anchor='middle' font-family='system-ui'>📝</text></svg>">
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="phone-mockup">
+            <!-- Phone Notch/Status Bar -->
+            <div class="phone-status-bar">
+                <div class="status-left">9:41</div>
+                <div class="status-center">●●●●●</div>
+                <div class="status-right">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M1 9l2 2c4.97-4.97 13.03-4.97 18 0l2-2C16.93 2.93 7.08 2.93 1 9zm8 8l3 3 3-3c-1.65-1.66-4.34-1.66-6 0zm-4-4l2 2c2.76-2.76 7.24-2.76 10 0l2-2C15.14 9.14 8.87 9.14 5 13z"/>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- App Content -->
+            <div class="app-container" id="app"></div>
+
+            <!-- Phone Home Button -->
+            <div class="phone-home-button"></div>
+        </div>
+
+        <!-- Info Panel -->
+        <div class="info-panel">
+            <h1>Daily Notes</h1>
+            <p>A beautiful note-taking app for organizing your daily thoughts</p>
+            <div class="features">
+                <div class="feature">
+                    <span class="feature-icon">📅</span>
+                    <span>Calendar View</span>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">🎨</span>
+                    <span>Color Tags</span>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">⭐</span>
+                    <span>Favorites</span>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">🔍</span>
+                    <span>Search Notes</span>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">⚙️</span>
+                    <span>Settings</span>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">💾</span>
+                    <span>Auto-Save</span>
+                </div>
+            </div>
+            <div class="links">
+                <a href="https://github.com/moswebgr/DailyNotes" target="_blank" class="btn btn-primary">View on GitHub</a>
+                <a href="https://github.com/moswebgr/DailyNotes/releases" target="_blank" class="btn btn-secondary">Download App</a>
+            </div>
+            <div class="tech-stack">
+                <p><strong>Built with:</strong> React Native, Expo, TypeScript</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
