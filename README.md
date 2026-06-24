@@ -95,7 +95,37 @@ The workflow `.github/workflows/deploy-web.yml` publishes the `web/` folder auto
 4. Set the folder to `/web`.
 5. Save.
 
-## 🛠️ Useful Commands
+## � Export APK
+
+To build a production Android APK, use Expo Application Services (EAS):
+
+1. Install EAS CLI globally:
+
+```bash
+npm install -g eas-cli
+```
+
+2. Log in with your Expo account:
+
+```bash
+eas login
+```
+
+3. Build the APK:
+
+```bash
+eas build --platform android --profile production
+```
+
+4. Download the resulting APK from the link shown by EAS after the build completes.
+
+If you prefer a legacy Expo APK build, you can also run:
+
+```bash
+expo build:android -t apk
+```
+
+## �🛠️ Useful Commands
 
 ```bash
 npm install
